@@ -6,10 +6,10 @@
 #ifndef NETWORK_H
 #define NETWORK_H
 
-#include <Arduino.h>
-#include <WiFiNINA.h>
-#include <PubSubClient.h>
 #include "Constants.h"
+#include <Arduino.h>
+#include <PubSubClient.h>
+#include <WiFiNINA.h>
 
 //=====================================================================
 // GLOBAL VARIABLES

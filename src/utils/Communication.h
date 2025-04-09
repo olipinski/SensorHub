@@ -6,8 +6,8 @@
 #ifndef COMMUNICATION_H
 #define COMMUNICATION_H
 
-#include <Arduino.h>
 #include "Constants.h"
+#include <Arduino.h>
 
 //=====================================================================
 // FUNCTION PROTOTYPES

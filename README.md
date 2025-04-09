@@ -20,24 +20,24 @@ Understanding the dependencies between files is crucial when splitting code:
 ```
 SensorHub.ino
   ↓ includes all .h files
-  
+
 Constants.h ← Referenced by all other files
-  
-Config.h/cpp 
+
+Config.h/cpp
   ↓ uses Communication.h, Buffer.h
-  
+
 Network.h/cpp
   ↓ uses Config.h, Communication.h
-  
+
 Sensors.h/cpp
   ↓ uses Config.h, DataProcessing.h
-  
+
 DataProcessing.h/cpp
   ↓ uses Sensors.h, Config.h
-  
+
 Buffer.h/cpp
   ↓ uses Config.h, Sensors.h
-  
+
 Communication.h/cpp
   ↓ uses Sensors.h, Config.h
 ```
@@ -60,7 +60,7 @@ The Arduino IDE handles compilation differently than standard C++ compilers. Her
 3. The Arduino pre-compiler concatenates files in a specific order:
    - First the `.ino` file
    - Then other files in alphabetical order
-   
+
 To ensure proper compilation:
 - Always include the necessary header files at the top of each `.cpp` file
 - Use header guards in all `.h` files

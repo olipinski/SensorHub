@@ -59,12 +59,12 @@ const float MIN_GAS_STD_DEV = 0.01;
 //=====================================================================
 // TIMING CONSTANTS
 //=====================================================================
-const unsigned long NETWORK_CHECK_INTERVAL = 10000;    // 10 seconds
-const unsigned long BATTERY_CHECK_INTERVAL = 30000;    // 30 seconds
-const unsigned long CONFIG_SAVE_DELAY = 5000;          // 5 seconds
-const unsigned long LED_BLINK_SHORT = 50;              // 50 ms
-const unsigned long LED_BLINK_MEDIUM = 100;            // 100 ms
-const unsigned long LED_BLINK_LONG = 200;              // 200 ms
+const unsigned long NETWORK_CHECK_INTERVAL = 10000; // 10 seconds
+const unsigned long BATTERY_CHECK_INTERVAL = 30000; // 30 seconds
+const unsigned long CONFIG_SAVE_DELAY = 5000;       // 5 seconds
+const unsigned long LED_BLINK_SHORT = 50;           // 50 ms
+const unsigned long LED_BLINK_MEDIUM = 100;         // 100 ms
+const unsigned long LED_BLINK_LONG = 200;           // 200 ms
 
 //=====================================================================
 // EEPROM CONSTANTS

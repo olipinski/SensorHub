@@ -6,8 +6,8 @@
 #ifndef DATA_PROCESSING_H
 #define DATA_PROCESSING_H
 
-#include <Arduino.h>
 #include "Constants.h"
+#include <Arduino.h>
 
 //=====================================================================
 // GLOBAL VARIABLES

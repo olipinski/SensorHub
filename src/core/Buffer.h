@@ -6,22 +6,22 @@
 #ifndef BUFFER_H
 #define BUFFER_H
 
-#include <Arduino.h>
 #include "Constants.h"
+#include <Arduino.h>
 
 //=====================================================================
 // DATA STRUCTURES
 //=====================================================================
 // Network buffer for offline storage
 struct SensorReading {
-  unsigned long timestamp;
-  float temperature;
-  float humidity;
-  float accelMagnitude;
-  float gasRatio;
-  float soundLevel;
-  float batteryPercentage;
-  bool valid;
+    unsigned long timestamp;
+    float temperature;
+    float humidity;
+    float accelMagnitude;
+    float gasRatio;
+    float soundLevel;
+    float batteryPercentage;
+    bool valid;
 };
 
 //=====================================================================

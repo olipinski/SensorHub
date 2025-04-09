@@ -6,21 +6,21 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#include <Arduino.h>
 #include "Constants.h"
+#include <Arduino.h>
 
 //=====================================================================
 // CONFIGURATION STRUCTURE
 //=====================================================================
 struct Config {
-  float accelSpikeThreshold;
-  int soundSpikeThreshold;
-  unsigned long sensorReadInterval;
-  unsigned long mqttPublishInterval;
-  bool anomalyDetectionEnabled;
-  float anomalyThresholdMultiplier;
-  int offlineBufferSize;
-  byte configSaved;
+    float accelSpikeThreshold;
+    int soundSpikeThreshold;
+    unsigned long sensorReadInterval;
+    unsigned long mqttPublishInterval;
+    bool anomalyDetectionEnabled;
+    float anomalyThresholdMultiplier;
+    int offlineBufferSize;
+    byte configSaved;
 };
 
 // Global configuration variable
